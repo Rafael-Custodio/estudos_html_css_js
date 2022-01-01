@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.box0{
+    display: flex;
+justify-content: center;
+}
+
+.box1{
+    border: 1px solid black; /*espessura, tipo e cor*/
+    background-color: black;
+    padding-inline: 20px;/*espaçamento das laterais*/
+}
+
+.box2{
+    border: 1px solid black; /*espessura, tipo e cor*/
+    background-color: white;
+    padding-top: 20px;
+
+}
+.box3, h2, h3{
+    text-align: center;
+}
+
+img{
+    border: 1px solid black; /*espessura, tipo e cor*/
+}
+
+.texto1, .texto4, .texto5{
+    color: white;
+    text-align: center;
+}
+
+.texto1, .texto4{
+    font-weight: bold;
+}
+
+.texto1{
+    font-size: 60px;
+    margin: 0px;/*espaçamento externo, coloca margem em todos os cantos (cima, baixo e laterais)*/
+}
+.texto4{
+    font-size: 23px;
+}
+
+.texto3, .texto5{
+    margin: 0px;/*espaçamento externo, coloca margem em todos os cantos (cima, baixo e laterais)*/
+}
+
+.texto2{
+    margin: 10px;
+}
+
+.texto11{
+    margin: 7px;
+}
+
+.texto4{
+    margin: 10px;/*espaçamento externo, coloca margem em todos os cantos (cima, baixo e laterais)*/
+}
