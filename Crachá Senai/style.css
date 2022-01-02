@@ -61,3 +61,18 @@ img{
 .texto4{
     margin: 10px;/*espaçamento externo, coloca margem em todos os cantos (cima, baixo e laterais)*/
 }
+
+.footer-dark {
+    padding: 20px;
+    background-color:#282d32;
+}
+
+.footer-dark .copyright {
+    text-align:center;
+    font-size:14px;
+}
+  
+.copyright:hover {
+    color: white;
+}
+  
