@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cima{
+    background-color: #2369b1;
+    color: white;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    padding: 10px;
+    box-shadow: 0px 0px 5px;
+    font-weight: bold;
+}
+
+.menu ul{
+    list-style: none;/*retira a bolinha da lista*/
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    padding: 5px 15px;/*distância de cima e de baixo, e depois das laterais*/
+    display: inline-block;/*deixa de ocupar um o espaço do outro*/
+    color: white;
+    font-size: 20px;
+    text-decoration: none;/*retira o sublinhado do link*/
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    background-color: #3f7cbb;/*muda a cor de fundo ao passar o mouse sobre o botão*/
+}
+
+.baixo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.texto{
+    background-color: #b2e0ff;
+    padding: 10px;
+}
+
+.cx{
+    display: flex;
+    padding: 40px;
+}
+
+
+
+
