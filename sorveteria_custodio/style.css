@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0px;
@@ -19,8 +24,11 @@ body{
     font-weight: bold;
 }
 
+.menu{
+    padding-bottom: 10px;
+}
 .menu ul{
-    list-style: none;/*retira a bolinha da lista*/
+    list-style-type: none;/*retira a bolinha da lista*/
 }
 
 .menu ul li{
@@ -33,12 +41,17 @@ body{
     color: white;
     font-size: 20px;
     text-decoration: none;/*retira o sublinhado do link*/
-    border-radius: 5px;
+    
     font-weight: bold;
 }
 
 .menu ul li a:hover{
     background-color: #3f7cbb;/*muda a cor de fundo ao passar o mouse sobre o botão*/
+    border-radius: 5px;
+}
+
+.pag-atual{
+    border-bottom: 2px solid white;
 }
 
 .baixo{
@@ -49,7 +62,9 @@ body{
 
 .texto{
     background-color: #b2e0ff;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .cx{
@@ -59,6 +74,7 @@ body{
 
 
 .comprar{
+    width: 70px;
     background-color: #73c4fa;
     color: black;
     text-decoration: none; /*retira o sublinhado do link*/
@@ -73,6 +89,5 @@ body{
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-
 
 
